@@ -17,7 +17,7 @@ public class TestGame extends ApplicationAdapter {
     public void create() {
         batch = new SpriteBatch();
         img = new Texture( "badlogic.jpg" );
-        //sendHttpLog( "log1.log", "test delay message" );
+        sendHttpLog( "log1.log", "test delay message" );
     }
 
     @Override
